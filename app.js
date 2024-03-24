@@ -11,5 +11,6 @@ app.get('/version', (req, res) => {
 app.use(express.static('dist'))
 
 app.listen(PORT, () => {
+  this_causes_error
   console.log(`server started on port ${PORT}`)
 })
